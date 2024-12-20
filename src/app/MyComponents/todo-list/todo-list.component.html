@@ -1,0 +1,15 @@
+
+
+
+<div class="card-grid">  
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">
+                {{todo.sno}}. {{todo.title}}
+              </h5>              
+            <p class="card-text">{{todo.desc}}</p>
+
+            <a href="#" class="btn btn-danger" (click)="onClick(todo)">Delete</a>
+        </div>
+    </div>
+</div>
